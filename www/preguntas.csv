@@ -1,0 +1,40 @@
+categoria;pregunta;opcion_a;opcion_b;opcion_c;respuesta;estrella
+Historia;¿En qué año llegó Cristóbal Colón a América?;1492;1500;1453;A;
+Historia;¿En qué año se declaró la Independencia de la Argentina?;1810;1816;1853;B;
+Historia;¿Qué civilización construyó Machu Picchu?;Azteca;Maya;Inca;C;
+Historia;¿En qué año cayó el Muro de Berlín?;1961;1989;1991;B;
+Historia;¿Quién fue el primer ser humano en pisar la Luna?;;;;Neil Armstrong;
+Geografía;¿Cuál es la capital de Australia?;Sídney;Canberra;Melbourne;B;
+Geografía;¿Cuál es el río más caudaloso de Sudamérica?;Paraná;Orinoco;Amazonas;C;
+Geografía;¿Cuál es el país más poblado de Sudamérica?;;;;Brasil;
+Geografía;¿Cuál es el océano más grande del mundo?;Atlántico;Índico;Pacífico;C;
+Geografía;¿Cómo se llama la montaña más alta de América?;;;;Aconcagua;
+Naturaleza;¿Cuál es el planeta más grande del Sistema Solar?;Saturno;Júpiter;Neptuno;B;
+Naturaleza;¿Cuántos huesos tiene el cuerpo de un adulto?;206;212;196;A;
+Naturaleza;¿Cuál es el animal más grande que existe?;;;;La ballena azul;
+Naturaleza;¿Qué gas es el más abundante en la atmósfera terrestre?;Oxígeno;Nitrógeno;Dióxido de carbono;B;
+Naturaleza;¿Qué planeta es conocido como "el planeta rojo"?;;;;Marte;
+Espectáculos;¿Quién dirigió la película Titanic?;Steven Spielberg;James Cameron;Ridley Scott;B;
+Espectáculos;¿Qué banda cantaba "Bohemian Rhapsody"?;The Beatles;Queen;Led Zeppelin;B;
+Espectáculos;¿Qué película argentina ganó el Oscar a mejor película extranjera en 2010?;;;;El secreto de sus ojos;
+Espectáculos;¿Qué cantante colombiana interpreta "Hips Don't Lie"?;;;;Shakira;
+Espectáculos;¿Qué actor interpretó a Jack en Titanic?;;;;Leonardo DiCaprio;
+Arte;¿Quién pintó La Gioconda (Mona Lisa)?;Leonardo da Vinci;Rafael;Miguel Ángel;A;
+Arte;¿Quién pintó "La noche estrellada"?;Claude Monet;Vincent van Gogh;Salvador Dalí;B;
+Arte;¿Quién esculpió el David que está en Florencia?;;;;Miguel Ángel;
+Arte;¿Quién escribió "Don Quijote de la Mancha"?;Miguel de Cervantes;Lope de Vega;Jorge Luis Borges;A;
+Arte;¿Quién pintó el Guernica?;;;;Pablo Picasso;
+Deportes;¿Cuántos Mundiales de fútbol ganó Argentina hasta 2022?;2;3;4;B;
+Deportes;¿Cuántos jugadores tiene cada equipo en la cancha en vóley?;5;6;7;B;
+Deportes;¿Qué país fue sede del Mundial de fútbol de 2014?;;;;Brasil;
+Deportes;¿En qué deporte se habla de "birdie" y "bogey"?;;;;Golf;
+Deportes;¿Cuántos puntos vale un tiro libre convertido en básquet?;1;2;3;A;
+Historia;¿En qué año comenzó la Primera Guerra Mundial?;1912;1914;1916;B;1
+Historia;¿En qué año fue la Batalla de Waterloo?;1805;1815;1825;B;1
+Geografía;¿Cuál es la capital de Kazajistán?;;;;Astaná;1
+Geografía;¿Cuál es el lago navegable más alto del mundo?;;;;Titicaca;1
+Naturaleza;¿Cuál es el hueso más pequeño del cuerpo humano?;Yunque;Estribo;Martillo;B;1
+Naturaleza;¿Qué elemento químico tiene el símbolo W?;;;;Wolframio (tungsteno);1
+Espectáculos;¿Quién dirigió "El Padrino"?;;;;Francis Ford Coppola;1
+Arte;¿Quién pintó "Las Meninas"?;Francisco de Goya;Diego Velázquez;Bartolomé Murillo;B;1
+Deportes;¿Qué selección ganó el primer Mundial de fútbol, en 1930?;Argentina;Brasil;Uruguay;C;1

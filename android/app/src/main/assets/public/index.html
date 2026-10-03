@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no" />
+  <meta name="theme-color" content="#120a2e" />
+  <title>Carrera de Mente</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app">
+
+    <!-- ===== MENÚ ===== -->
+    <section id="menu" class="vista activa">
+      <header class="logo">
+        <span class="logo-chico">La</span>
+        <h1>Carrera<br />de Mente</h1>
+        <p>Elegí una categoría</p>
+      </header>
+
+      <div id="categorias" class="grid-categorias" aria-live="polite">
+        <p class="estado">Cargando preguntas…</p>
+      </div>
+
+      <button id="btn-estrella" class="btn-estrella" type="button" disabled>
+        <span class="estrella-icono">★</span> Pregunta Estrella <span class="estrella-icono">★</span>
+      </button>
+
+      <footer class="pie">
+        <p id="origen" class="origen"></p>
+        <div class="pie-botones">
+          <button id="btn-importar" class="btn-chico" type="button">📂 Cargar mi CSV</button>
+          <button id="btn-original" class="btn-chico" type="button" hidden>↺ Usar el original</button>
+        </div>
+        <input id="archivo" type="file" accept=".csv,text/csv,text/comma-separated-values,application/vnd.ms-excel,text/plain" hidden />
+      </footer>
+    </section>
+
+    <!-- ===== PREGUNTA ===== -->
+    <section id="pregunta" class="vista" aria-live="polite">
+      <div class="tarjeta" id="tarjeta">
+        <div class="tarjeta-cabecera">
+          <span id="p-categoria" class="chip"></span>
+          <span id="p-estrella" class="chip chip-estrella" hidden>★ Estrella</span>
+        </div>
+
+        <h2 id="p-texto" class="pregunta-texto"></h2>
+
+        <!-- Con opciones: el juez toca la que respondieron los jugadores -->
+        <div id="opciones" class="opciones"></div>
+
+        <!-- Sin opciones: el juez mira la respuesta y marca si acertaron -->
+        <div id="abierta" class="abierta" hidden>
+          <div id="caja-respuesta" class="caja-respuesta" hidden>
+            <span>Respuesta</span>
+            <strong id="p-respuesta"></strong>
+          </div>
+          <button id="btn-ver" class="btn btn-ver" type="button">👁 Ver respuesta</button>
+          <div class="veredicto">
+            <button id="btn-correcto" class="btn btn-correcto" type="button">✔ Correcto</button>
+            <button id="btn-incorrecto" class="btn btn-incorrecto" type="button">✖ Incorrecto</button>
+          </div>
+        </div>
+
+        <!-- Suspenso y resultado -->
+        <div id="suspenso" class="suspenso" hidden>Revisando<span class="puntos"><i>.</i><i>.</i><i>.</i></span></div>
+        <div id="resultado" class="resultado" hidden>
+          <strong id="r-titulo"></strong>
+          <span id="r-detalle"></span>
+        </div>
+      </div>
+
+      <div id="vuelta" class="vuelta" hidden>
+        <div class="vuelta-pista"><div id="vuelta-barra" class="vuelta-barra"></div></div>
+        <button id="btn-volver" class="btn btn-volver" type="button">⬅ Volver al menú <small id="vuelta-seg"></small></button>
+      </div>
+    </section>
+
+  </main>
+
+  <div id="toast" class="toast" role="status" hidden></div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

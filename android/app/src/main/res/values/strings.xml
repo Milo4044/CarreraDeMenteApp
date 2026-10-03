@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Carrera de Mente</string>
+    <string name="title_activity_main">Carrera de Mente</string>
+    <string name="package_name">com.carreramente.app</string>
+    <string name="custom_url_scheme">com.carreramente.app</string>
+</resources>
